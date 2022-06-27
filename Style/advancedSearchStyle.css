@@ -1,0 +1,132 @@
+.topNavigationBar{
+    justify-content: space-between;
+    display: flex;;
+    padding: 6px;
+}
+.topNavigationBar li {
+    list-style: none;
+}
+
+.topNavigationBar ul{
+    display: flex;
+}
+
+.topNavigationBar a{
+    margin: 6px;
+    color: black;
+    text-decoration: none;
+}
+.topNavigationBar a img{
+    width: 90px;
+    height: 30px;
+}
+
+.topNavigationBar a:hover {
+    text-decoration: underline;
+}
+
+.title{
+    padding: 20px 40px;
+    color: #d93025;
+    font-size: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.topNavigationBar .button{
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #4585f3;
+    padding: 10px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.topNavigationBar .button:hover{
+    box-shadow: 0 0 1pt 1pt rgb(166, 166, 228);
+    text-decoration: none;
+}
+
+body, .button {
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+header{
+    color:#333;
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 20px 40px;
+}
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .row a {
+    text-decoration: none;
+    cursor: default;
+    min-width: 167px;
+    height: 30px;
+    color: #222;
+    font-size: 13px;
+    margin-bottom: 10px;
+ }
+
+
+input[type=text]{
+    min-width: 400px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 11px;
+    height: 30px;
+    text-align: left;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border:1px solid cornflowerblue;
+}
+
+@media (min-width:600px)
+{
+    input[type=text]{
+        min-width: 600px;
+        font-size: 13px;
+    }
+    input[type=submit]
+    {
+        margin-right: auto;
+    }
+}
+
+input[type=submit]{
+    height: 30px;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    float: right;
+}
+
+input[type=submit]:hover {
+    outline: none;
+    border: 1px solid #2f5bb7;
+    background-color: #357ae8;
+}

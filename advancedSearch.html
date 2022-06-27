@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/advancedSearchStyle.css">
+    <title>Google Advanced Search</title>
+</head>
+<body>
+
+    <div class="topNavigationBar">
+        <ul>
+            <a href="index.html">
+                <img src="./Style/images/googleLogo.png" title="Go to Google Home">
+            </a>
+        </ul>
+        
+        <ul>
+            <li>
+                <a href="images.html">Images</a>
+            </li>
+            <li>
+                <a href="index.html">Search</a>
+            </li>
+            <li>
+                <a class ="button" href="https://accounts.google.com/servicelogin">Sign In</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="title">
+        <label>Advanced Search</label>
+    </div>
+    
+    <div class="form">
+        <form action="https://google.com/search">
+            <header>
+                Find pages with...
+            </header>
+
+            <br>
+
+            <div class="row">
+                <a href="#all">all these words:</a>
+                <input type="text" name="as_q" id="all" placeholder="To do : Type the important words.">
+            </div>
+            
+            <div class="row">
+                <a href="#exact">this exact word or phrase:</a>
+                <input type="text" name="as_epq" id="exact" placeholder="To do : Put exact words in quotes.">
+            </div>
+
+            <div class="row">
+                <a href="#any">any of these words: </a>
+                <input type="text" name="as_oq" id="any" placeholder="To do : Type OR between all the words you want.">
+            </div>
+
+            <div class="row">
+                <a href="#none">none of these words: </a>
+                <input type="text" name="as_eq" id="none" placeholder="To do : Put a minus sign just before words that you don't want.">
+            </div>
+
+            <div>
+                <input type="submit" value="Advanced Search">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
